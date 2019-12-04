@@ -1,0 +1,40 @@
+<<<<<<< HEAD
+p{
+	font-size: 29px;
+  text-align: left;
+  font-family: Courier New;
+  color: white;
+}
+body{
+	background: #f1c4c1;
+}
+
+h1{
+	color: #19484e;
+	font-size: 23px;
+	text-align: center;
+	font-family: Courier New;
+}
+.name{
+	color: #19484e;
+	font-size: 80px;
+	font-family: Courier New;
+	text-align: center;
+}
+=======
+body{
+	color:purple;
+}
+p{
+	color:yellow;
+}
+h2{
+	color:green;
+}
+h1{
+	color:orange;
+}
+i{
+	color:red;
+}
+>>>>>>> c73d9102b45b58a39bf23c21bd70cd1f2fb59508

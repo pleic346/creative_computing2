@@ -1,0 +1,108 @@
+
+#face:hover {
+	transition: 5s;
+	width: 500px;
+	height: 500px;
+	border-radius: 50%;
+	background-color: black;
+	margin: 100px;
+	align-items: stretch;
+}
+#face {
+    float: left;
+    margin: 0 auto;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 900px;
+    height: 900px;
+    margin-top: -60px;
+    margin-left: -60px;
+
+    -webkit-animation-name: spin;
+    -webkit-animation-duration: 4000ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+
+    -moz-animation-name: spin;
+    -moz-animation-duration: 4000ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+
+    -ms-animation-name: spin;
+    -ms-animation-duration: 4000ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+
+    animation-name: spin;
+    animation-duration: 9000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.eye {
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background-color: red;
+	margin-top: 90px;
+	margin-left: 100px;
+	align-items: stretch;
+	flex-grow: 4px;
+}
+.pupil{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: white;
+	margin-top: 30px;
+	margin-left: 40px;
+	flex-grow: 4px;
+		display: flex;
+}
+#mouth2 {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background-color: yellow;
+	margin-top: -600px;
+	margin-left: 240px;
+	margin-bottom: 800px;
+		display: flex;
+		align-items: stretch;
+	transform-style: opacity: 100%;
+}
+#mouth {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background-color: orange;
+	margin-top: -70px;
+	margin-left: 200px;
+	margin-bottom: 500px;
+		display: flex;
+		align-items: stretch;
+}
+#nose{
+	width: 0;
+	height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 150px solid aqua;
+    margin-top: -65px;
+	margin-left: 200px;
+	margin-bottom: 100px;
+		display: flex;
+   }
+#nose2{
+	width: 0;
+	height: 0;
+    border-left: 50px solid transparent;
+    transform: rotate(40deg);
+    border-right: 50px solid transparent;
+    border-bottom: 150px solid blue;
+    margin-top: -250px;
+	margin-left: 200px;
+	margin-bottom: 100px;
+		display: flex;
+   }

@@ -1,0 +1,121 @@
+body{
+	margin:0;
+	background-color: #f3b1b6;
+}
+#ojo {
+	  width:29%;
+ position:relative;
+  top:1640px;
+  left:800px;
+  z-index:2;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+#ojo:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+#flores {
+ position:relative;
+  top:1000px;
+  left:700px;
+  z-index:1;
+}
+#arito {
+	    width:10%;
+ position:relative;
+  top:1250px;
+  left:780px;
+  z-index:4;
+}
+#arito :hover img {
+
+transform: scale(.5);
+
+}
+#arito img:hover {
+
+transform: scale(1.75);
+
+}
+#labio {
+  width:40%;
+ position:relative;
+  top:-630px;
+  left:956px;
+  z-index:3;
+}
+#labio :hover img {
+
+transform: scale(.5);
+
+}
+#labio img:hover {
+
+transform: scale(1.75);
+
+}
+#bufanda {
+  width:200px;
+ position:relative;
+  top:1230px;
+  left:790px;
+  z-index:2;
+}
+#bufanda:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(8px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-12px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(12px, 0, 0);
+  }
+}
+#kal {
+	width:-100%;
+  z-index: 6;
+}
+#rotate{
+	margin-top: 0px;
+	margin-bottom: -637px;
+	border: 0px;
+}
+#rotate:hover{
+  -webkit-transform: scaleX(-3);
+  -moz-transform: scaleX(-3);
+  -o-transform: scaleX(-3);
+  transform: scaleX(-3);
+
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+#rotate1{
+	margin-top: 0px;
+	margin-bottom: -1100px;
+	border: 0px;
+	transform: rotate(180deg);
+}
+#rotate1:hover{
+  -webkit-transform: scaleX(1);
+  -moz-transform: scaleX(1);
+  -o-transform: scaleX(1);
+  transform: scaleX(1);
+
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}

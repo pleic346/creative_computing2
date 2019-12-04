@@ -1,0 +1,111 @@
+.tittle{
+  font-size: 48px;
+  font-family: Trebuchet MS;
+  position: relative;
+  font-stretch: expanded;
+  color: #19484e;
+  text-align:center;
+
+}
+body{
+	background: #f1c4c1;
+}
+.name{
+  font-size: 28px;
+  font-family: Trebuchet MS;
+  color: white;
+  position: relative;
+  font-stretch: expanded;
+  text-align:center;
+}
+.Projects{
+	font-size: 90px;
+  font-family: Courier New;
+  position: relative;
+  font-stretch: expanded;
+text-align: center;
+ color: #ed5435;
+
+}
+p{
+	font-size: 60px;
+  text-align: center;
+  font-family: Trebuchet MS;
+}
+.Excercises{
+	text-align: center;
+	font-size: 90px;
+  font-family: Courier New;
+  position: relative;
+  font-stretch: expanded;
+  color: #ed5435;
+}
+.img_n img{
+  width:20%;
+  position: relative;
+   margin-left: 100px;
+   margin-top: 90px;
+   -webkit-transition: -webkit-transform 1s expanded;
+          transition:         transform .1s infinite;
+}
+.img_n:hover {
+  -webkit-transform: rotate(09deg);
+          transform: rotate(-15deg);
+}
+
+.img_n2 img{
+  width:20%;
+  position: relative;
+   margin-left: 1430px;
+   margin-top: -130px;
+   transform: rotate(180deg);
+      -webkit-transition: -webkit-transform 3s infinite;
+          transition:         transform .3s infinite;
+
+}
+.img_n2:hover {
+  -webkit-transform: rotate(09deg);
+          transform: rotate(-15deg);
+}
+.img_c img{
+  width:15%;
+  position: fixed;
+  text-align: center;
+  margin-left: 1080px;
+  margin-top: -240px;
+}
+.img_c:hover img {
+
+transform: scale(.9);
+
+}
+.img_c img:hover {
+
+transform: scale(1.20);
+
+}
+.img_z img{
+  width:15%;
+  position: fixed;
+  margin-left:580px;
+text-align: center;
+margin-top: -240px;
+}
+.img_z:hover img {
+
+transform: scale(.9);
+
+}
+.img_z img:hover {
+
+transform: scale(1.20);
+
+}
+.about{
+  font-family: Courier New;
+  color: white;
+  font-size: 30px;
+}
+
+
+

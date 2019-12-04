@@ -1,0 +1,49 @@
+
+.blue_text 
+	color: blue;
+}
+.green_text {
+	color: green;
+}
+#red_text {
+	color: red;
+}
+.blue_text.green_text {
+	color: blue;
+}
+.fixed_size {
+	font-size: 70px;
+}
+.resonsive_size{
+	font-size: 8vw;
+}
+.fixed_box{
+	width:200px;
+	height:200px;
+	background-color:blue;
+}
+.resonsive_box{
+	width:20vw;
+	height:20vh;
+	background-color:red;
+}
+#box_1 {
+	width: 100px;
+margin: 0 auto 0 auto; 
+	text-align:center;
+}
+#box_2{
+	background-color: blue;
+}
+#box_3:hover {
+	background-color: orange;
+}
+#box_4:hover{
+	opacity:100%;
+	margin: 0 auto 0 auto;
+	padding:100%;
+	border: 50px;
+	width: 78px;
+	height: 99px;
+	transition: all 1s;
+}
